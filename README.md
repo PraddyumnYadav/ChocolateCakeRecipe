@@ -14,4 +14,10 @@
 - block = Gives You Full Control on Your Element .
 - inline = Snatches Full Control from You .
 - inline-block = Give Some Control To You And Some To Him .
+- ***Add Seperator***
+- we have used div tag with class seperator for seperator .
+- we have a fixed height of the seperator .
+- we have width as 10% of the Window Width .
+- we have also set margin-left 45% and margin-right 45%
+- we have background color as black
 # If You Have Any Suggestions for Me Then Please Tell Me About That.
