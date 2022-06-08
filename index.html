@@ -32,6 +32,11 @@
                 text-align: center; 
             }
 
+            .center {
+                text-align: center;
+                width: 100%;
+            }
+
             div.catagory {
                 text-align: center;
             }
@@ -54,6 +59,28 @@
                 margin-left: 45%;
                 margin-right: 45%;
             }
+            div.info {
+                position: relative;
+            }
+            table.info {
+                position: absolute; 
+                bottom: 0; 
+                width: 100%; 
+                color: white; 
+                background-color: #6C829DC0; 
+                height: 80px;
+            }
+            table.info td{
+                text-align: center;
+                vertical-align: top;
+                font-size: 14px;
+            }
+            table.info th {
+                text-align: bottom;
+                padding-bottom: 8px;
+                font-size: 16px;
+            }
+
         </style>
     </head>
         <!-- comment in html . -->
@@ -75,26 +102,27 @@
             </div>
             <!--------------------------------------------------------------------------------------------->
             
-            <div align="center">
-            <img src="https://source.unsplash.com/720x600/?chocolate cake" alt="For Some Reason This Image is Not Available We Will Report it .">
+            <div class="info">
+                <img class="center" src="https://source.unsplash.com/720x600/?chocolate cake" alt="For Some Reason This Image is Not Available We Will Report it .">
+                
+
+                <!--------------------------------------------------------------------------------------------->
+
+                <table class="info"> 
+                    <tr>
+                        <th><b>Difficulty</b></th>
+                        <th><b>Preperation</b></th>
+                        <th><b>Cooking</b></th>
+                        <th><b>Total Time</b></th>
+                    </tr>
+                    <tr>
+                        <td>Easy</td>
+                        <td>10 min</td>
+                        <td>25 min</td>
+                        <td>35 min</td>
+                    </tr>
+                </table> 
             </div>
-
-            <!--------------------------------------------------------------------------------------------->
-
-            <table border="1">
-                <tr>
-                    <th><b>Difficulty</b></th>
-                    <th><b>Preperation</b></th>
-                    <th><b>Cooking</b></th>
-                    <th><b>Total Time</b></th>
-                </tr>
-                <tr>
-                    <td>Easy</td>
-                    <td>10 min</td>
-                    <td>25 min</td>
-                    <td>35 min</td>
-                </tr>
-            </table> 
             <!--------------------------------------------------------------------------------------------->
                 <h2 style="color: blue"><b><i>Ingredients</i></b></h2>
                 <ul>
