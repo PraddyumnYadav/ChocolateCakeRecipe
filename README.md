@@ -29,4 +29,14 @@
 - sticky = The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block .
 - ***Seperate The CSS File***
 - We have Seperated the CSS file content in recipe.css file .
+- ***Coloumns***
+- we have used div displat inline block  to do this .
+- ***Style For Ingredient***
+- Here First We Combine our ingredients and prices into a single list .
+- then we created a div with class ingredient and transform every list item into a paragraph .
+- then we use "div.ingredient p {}" in css for giving styles .
+- first we align text to center .
+- then we give font size as 14 pixels .
+- then we created a border with 1px width solid and lightgrey color .
+- and finally we gave a padding for that paragraph .
 # If You Have Any Suggestions for Me Then Please Tell Me About That.

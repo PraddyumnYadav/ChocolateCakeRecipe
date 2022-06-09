@@ -44,6 +44,7 @@ p.catagory {
     font-size: 18px;
     font-weight: bold;
 }
+
 div.seperator {
     height: 1px;
     width: 10%;
@@ -51,9 +52,11 @@ div.seperator {
     margin-left: 45%;
     margin-right: 45%;
 }
+
 div.info {
     position: relative;
 }
+
 table.info {
     position: absolute; 
     bottom: 0; 
@@ -62,13 +65,42 @@ table.info {
     background-color: #6C829DC0; 
     height: 10%;
 }
+
 table.info td{
     text-align: center;
     vertical-align: top;
     font-size: 14px;
 }
+
 table.info th {
     text-align: bottom;
     padding-bottom: 8px;
     font-size: 16px;
+}
+
+div.col {
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 10px solid rgb(13, 134, 134);
+    padding-bottom: 5px;
+}
+
+div.col1 {
+    display: inline-block;
+}
+
+div.col2 {
+    float: right;
+}
+div.ingredients p {
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgrey;
+    padding: 5%;
 }
