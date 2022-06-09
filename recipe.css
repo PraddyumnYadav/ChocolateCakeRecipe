@@ -1,0 +1,74 @@
+/* comment in css */
+body {
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+div.content {
+    background-color: white;
+    margin:0px 10% 80px 10%;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+}
+
+div.description {
+    text-align: center; 
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+div.catagory {
+    text-align: center;
+}
+
+p.catagory {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    padding: 18px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+div.seperator {
+    height: 1px;
+    width: 10%;
+    background-color: black;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+div.info {
+    position: relative;
+}
+table.info {
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    color: white; 
+    background-color: #6C829DC0; 
+    height: 10%;
+}
+table.info td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+table.info th {
+    text-align: bottom;
+    padding-bottom: 8px;
+    font-size: 16px;
+}

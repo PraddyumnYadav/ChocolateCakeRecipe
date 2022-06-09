@@ -27,4 +27,6 @@
 - absolute = The element is removed from the normal document flow, and no space is created for the element in the page layout.
 - fixed = The element is removed from the normal document flow, and no space is created for the element in the page layout.
 - sticky = The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block .
+- ***Seperate The CSS File***
+- We have Seperated the CSS file content in recipe.css file .
 # If You Have Any Suggestions for Me Then Please Tell Me About That.
