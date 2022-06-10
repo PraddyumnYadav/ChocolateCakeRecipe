@@ -8,6 +8,7 @@ div.content {
     background-color: white;
     margin:0px 10% 80px 10%;
     padding: 30px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
@@ -43,6 +44,7 @@ p.catagory {
     padding: 18px 20px;
     font-size: 18px;
     font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 div.seperator {
@@ -103,4 +105,24 @@ div.ingredients p {
     font-size: 14px;
     border: 1px solid lightgrey;
     padding: 5%;
+    margin: 4px;
+}
+table.instructions p.number {
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+table.instructions td.instruction_step {
+    font-size: 14px;
+    padding-left: 10px;
+}
+* {
+    overflow: auto;
 }
