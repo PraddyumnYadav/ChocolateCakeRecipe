@@ -6,8 +6,8 @@ body {
 
 div.content {
     background-color: white;
-    margin:0px 10% 80px 10%;
-    padding: 30px;
+    margin:0px 8px 40px 8px;
+    padding: 0px 8px 20px 8px;
     box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -71,17 +71,17 @@ table.info {
 table.info td{
     text-align: center;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 8px;
 }
 
 table.info th {
     text-align: bottom;
     padding-bottom: 8px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 div.col {
-    width: 45%;
+    width: 100%;
     margin-top: 20px;
 }
 
@@ -125,4 +125,53 @@ table.instructions td.instruction_step {
 }
 * {
     overflow: auto;
+}
+
+/* if device is desktop */
+@media only screen and (min-width: 768px) {
+    /* For desktops or laptops: */
+    div.content {
+        margin:0px 10% 80px 10%;
+        padding: 30px;
+        max-width: 650px;
+    }
+    table.info td{
+        text-align: center;
+        vertical-align: top;
+        font-size: 14px;
+    }
+    
+    table.info th {
+        text-align: bottom;
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+    div.col {
+        width: 45%;
+        margin-top: 20px;
+    }
+    
+    div.col h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 10px solid rgb(13, 134, 134);
+        padding-bottom: 5px;
+    }
+    
+    div.col1 {
+        display: inline-block;
+    }
+    
+    div.col2 {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
 }
